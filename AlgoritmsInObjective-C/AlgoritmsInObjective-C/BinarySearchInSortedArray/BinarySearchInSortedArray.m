@@ -9,6 +9,8 @@
 #import "BinarySearchInSortedArray.h"
 
 @implementation BinarySearchInSortedArray
+//Time Complexity O(log n)
+//Space Complexity O(1)
 
 +(NSInteger )binarySearchInNsarry:(NSArray *)array value:(NSNumber *)value{
     int steps = 0;
