@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EABCDE771FB43C72000E90BA /* FilePeakElements.m in Sources */ = {isa = PBXBuildFile; fileRef = EABCDE761FB43C72000E90BA /* FilePeakElements.m */; };
+		EABCDE7B1FB44745000E90BA /* FindElementInSortedRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EABCDE7A1FB44745000E90BA /* FindElementInSortedRotatedArray.m */; };
 		EAF247931FB368A600B10852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF247921FB368A600B10852 /* main.m */; };
 		EAF247A01FB3690500B10852 /* BinarySearchInSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF2479F1FB368FC00B10852 /* BinarySearchInSortedArray.m */; };
+		EAF247A41FB36DDA00B10852 /* GeneratePermutations.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF247A31FB36DDA00B10852 /* GeneratePermutations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EABCDE751FB43C72000E90BA /* FilePeakElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilePeakElements.h; sourceTree = "<group>"; };
+		EABCDE761FB43C72000E90BA /* FilePeakElements.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilePeakElements.m; sourceTree = "<group>"; };
+		EABCDE791FB44745000E90BA /* FindElementInSortedRotatedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindElementInSortedRotatedArray.h; sourceTree = "<group>"; };
+		EABCDE7A1FB44745000E90BA /* FindElementInSortedRotatedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindElementInSortedRotatedArray.m; sourceTree = "<group>"; };
 		EAF2478F1FB368A600B10852 /* AlgoritmsInObjective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AlgoritmsInObjective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF247921FB368A600B10852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EAF2479E1FB368FC00B10852 /* BinarySearchInSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearchInSortedArray.h; sourceTree = "<group>"; };
 		EAF2479F1FB368FC00B10852 /* BinarySearchInSortedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinarySearchInSortedArray.m; sourceTree = "<group>"; };
+		EAF247A21FB36DDA00B10852 /* GeneratePermutations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratePermutations.h; sourceTree = "<group>"; };
+		EAF247A31FB36DDA00B10852 /* GeneratePermutations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePermutations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EABCDE741FB43C48000E90BA /* FindPeakElemntsInArray */ = {
+			isa = PBXGroup;
+			children = (
+				EABCDE751FB43C72000E90BA /* FilePeakElements.h */,
+				EABCDE761FB43C72000E90BA /* FilePeakElements.m */,
+			);
+			path = FindPeakElemntsInArray;
+			sourceTree = "<group>";
+		};
+		EABCDE781FB44721000E90BA /* FindElementInSortedRotatedArray */ = {
+			isa = PBXGroup;
+			children = (
+				EABCDE791FB44745000E90BA /* FindElementInSortedRotatedArray.h */,
+				EABCDE7A1FB44745000E90BA /* FindElementInSortedRotatedArray.m */,
+			);
+			path = FindElementInSortedRotatedArray;
+			sourceTree = "<group>";
+		};
 		EAF247861FB368A600B10852 = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +87,10 @@
 		EAF247911FB368A600B10852 /* AlgoritmsInObjective-C */ = {
 			isa = PBXGroup;
 			children = (
+				EABCDE781FB44721000E90BA /* FindElementInSortedRotatedArray */,
+				EABCDE741FB43C48000E90BA /* FindPeakElemntsInArray */,
 				EAF247921FB368A600B10852 /* main.m */,
+				EAF247A11FB36DC900B10852 /* GeneratePermutations */,
 				EAF2479D1FB368FC00B10852 /* BinarySearchInSortedArray */,
 			);
 			path = "AlgoritmsInObjective-C";
@@ -73,6 +103,15 @@
 				EAF2479F1FB368FC00B10852 /* BinarySearchInSortedArray.m */,
 			);
 			path = BinarySearchInSortedArray;
+			sourceTree = "<group>";
+		};
+		EAF247A11FB36DC900B10852 /* GeneratePermutations */ = {
+			isa = PBXGroup;
+			children = (
+				EAF247A21FB36DDA00B10852 /* GeneratePermutations.h */,
+				EAF247A31FB36DDA00B10852 /* GeneratePermutations.m */,
+			);
+			path = GeneratePermutations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF247A01FB3690500B10852 /* BinarySearchInSortedArray.m in Sources */,
+				EAF247A41FB36DDA00B10852 /* GeneratePermutations.m in Sources */,
 				EAF247931FB368A600B10852 /* main.m in Sources */,
+				EABCDE7B1FB44745000E90BA /* FindElementInSortedRotatedArray.m in Sources */,
+				EABCDE771FB43C72000E90BA /* FilePeakElements.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

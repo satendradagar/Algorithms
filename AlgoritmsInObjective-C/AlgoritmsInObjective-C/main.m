@@ -8,12 +8,18 @@
 
 #import <Foundation/Foundation.h>
 #import "BinarySearchInSortedArray.h"
+#import "GeneratePermutations.h"
+#import "FilePeakElements.h"
+#import "FindElementInSortedRotatedArray.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
         [BinarySearchInSortedArray testSearch];
+        [GeneratePermutations printpermutations];
+        [FilePeakElements checkPeakElements];
+        [FindElementInSortedRotatedArray checkIndexOfElements];
     }
     return 0;
 }
