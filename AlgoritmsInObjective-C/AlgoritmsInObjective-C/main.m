@@ -14,7 +14,8 @@
 #import "KadeAlgoMaxSumSubaaray.h"
 #import "FindNextLargestElementInArray.h"
 #import "FibnocciSeries.h"
-
+#import "BinaryTree+ISSiblingsAndCousins.h"
+#
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -26,6 +27,8 @@ int main(int argc, const char * argv[]) {
         [KadeAlgoMaxSumSubaaray findMaxSumSubarray];
         [FindNextLargestElementInArray testNextAvaiableElement];
         [FibnocciSeries testFibnocci];
+        [BinaryTree testBinaryTree];
+        [BinaryTree testCousins];
     }
     return 0;
 }

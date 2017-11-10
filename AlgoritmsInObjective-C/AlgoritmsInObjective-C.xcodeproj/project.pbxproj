@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA2FDC4F1FB5B0A60096A7F7 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FDC4E1FB5B0A60096A7F7 /* BinaryTree.m */; };
+		EA2FDC521FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FDC511FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m */; };
 		EA7CE2211FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7CE2201FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.m */; };
 		EABCDE771FB43C72000E90BA /* FilePeakElements.m in Sources */ = {isa = PBXBuildFile; fileRef = EABCDE761FB43C72000E90BA /* FilePeakElements.m */; };
 		EABCDE7B1FB44745000E90BA /* FindElementInSortedRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EABCDE7A1FB44745000E90BA /* FindElementInSortedRotatedArray.m */; };
@@ -30,6 +32,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EA2FDC4D1FB5B0A60096A7F7 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		EA2FDC4E1FB5B0A60096A7F7 /* BinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
+		EA2FDC501FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BinaryTree+ISSiblingsAndCousins.h"; sourceTree = "<group>"; };
+		EA2FDC511FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BinaryTree+ISSiblingsAndCousins.m"; sourceTree = "<group>"; };
 		EA7CE21F1FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KadeAlgoMaxSumSubaaray.h; sourceTree = "<group>"; };
 		EA7CE2201FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KadeAlgoMaxSumSubaaray.m; sourceTree = "<group>"; };
 		EABCDE751FB43C72000E90BA /* FilePeakElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilePeakElements.h; sourceTree = "<group>"; };
@@ -59,6 +65,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA2FDC4C1FB5B0980096A7F7 /* BST_Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				EA2FDC4D1FB5B0A60096A7F7 /* BinaryTree.h */,
+				EA2FDC4E1FB5B0A60096A7F7 /* BinaryTree.m */,
+				EA2FDC501FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.h */,
+				EA2FDC511FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m */,
+			);
+			path = BST_Implementation;
+			sourceTree = "<group>";
+		};
 		EA7CE21E1FB47A33004F7A4A /* KadeAlgo_SubarrayWithMaxSum */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +140,7 @@
 		EAF247911FB368A600B10852 /* AlgoritmsInObjective-C */ = {
 			isa = PBXGroup;
 			children = (
+				EA2FDC4C1FB5B0980096A7F7 /* BST_Implementation */,
 				EAEE48CC1FB57A3B00ECA4F2 /* FibnocciNumberSeries */,
 				EAEE48C81FB5677200ECA4F2 /* FindNextLargestElementInArray */,
 				EA7CE21E1FB47A33004F7A4A /* KadeAlgo_SubarrayWithMaxSum */,
@@ -211,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAF247A01FB3690500B10852 /* BinarySearchInSortedArray.m in Sources */,
+				EA2FDC4F1FB5B0A60096A7F7 /* BinaryTree.m in Sources */,
+				EA2FDC521FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m in Sources */,
 				EAF247A41FB36DDA00B10852 /* GeneratePermutations.m in Sources */,
 				EAEE48CB1FB5679400ECA4F2 /* FindNextLargestElementInArray.m in Sources */,
 				EAEE48CF1FB57A5300ECA4F2 /* FibnocciSeries.m in Sources */,
