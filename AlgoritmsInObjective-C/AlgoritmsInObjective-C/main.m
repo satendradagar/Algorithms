@@ -11,6 +11,9 @@
 #import "GeneratePermutations.h"
 #import "FilePeakElements.h"
 #import "FindElementInSortedRotatedArray.h"
+#import "KadeAlgoMaxSumSubaaray.h"
+#import "FindNextLargestElementInArray.h"
+#import "FibnocciSeries.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -20,6 +23,9 @@ int main(int argc, const char * argv[]) {
         [GeneratePermutations printpermutations];
         [FilePeakElements checkPeakElements];
         [FindElementInSortedRotatedArray checkIndexOfElements];
+        [KadeAlgoMaxSumSubaaray findMaxSumSubarray];
+        [FindNextLargestElementInArray testNextAvaiableElement];
+        [FibnocciSeries testFibnocci];
     }
     return 0;
 }
