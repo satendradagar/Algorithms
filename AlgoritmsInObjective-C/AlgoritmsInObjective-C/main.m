@@ -15,7 +15,8 @@
 #import "FindNextLargestElementInArray.h"
 #import "FibnocciSeries.h"
 #import "BinaryTree+ISSiblingsAndCousins.h"
-#
+#import "BinaryTree+PostOrder.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -29,6 +30,7 @@ int main(int argc, const char * argv[]) {
         [FibnocciSeries testFibnocci];
         [BinaryTree testBinaryTree];
         [BinaryTree testCousins];
+        [BinaryTree testPostOrder];
     }
     return 0;
 }
