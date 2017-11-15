@@ -13,6 +13,8 @@
 		EA7CE2211FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7CE2201FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.m */; };
 		EABCDE771FB43C72000E90BA /* FilePeakElements.m in Sources */ = {isa = PBXBuildFile; fileRef = EABCDE761FB43C72000E90BA /* FilePeakElements.m */; };
 		EABCDE7B1FB44745000E90BA /* FindElementInSortedRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EABCDE7A1FB44745000E90BA /* FindElementInSortedRotatedArray.m */; };
+		EAC7A5741FB9E1E0004B8445 /* BinaryTree+VerifySubTree.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7A5731FB9E1E0004B8445 /* BinaryTree+VerifySubTree.m */; };
+		EAC7A5771FB9E847004B8445 /* BinaryTree+CompleteMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7A5761FB9E847004B8445 /* BinaryTree+CompleteMatch.m */; };
 		EAEE48CB1FB5679400ECA4F2 /* FindNextLargestElementInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEE48CA1FB5679400ECA4F2 /* FindNextLargestElementInArray.m */; };
 		EAEE48CF1FB57A5300ECA4F2 /* FibnocciSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEE48CE1FB57A5300ECA4F2 /* FibnocciSeries.m */; };
 		EAF247931FB368A600B10852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF247921FB368A600B10852 /* main.m */; };
@@ -45,6 +47,10 @@
 		EABCDE761FB43C72000E90BA /* FilePeakElements.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilePeakElements.m; sourceTree = "<group>"; };
 		EABCDE791FB44745000E90BA /* FindElementInSortedRotatedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindElementInSortedRotatedArray.h; sourceTree = "<group>"; };
 		EABCDE7A1FB44745000E90BA /* FindElementInSortedRotatedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindElementInSortedRotatedArray.m; sourceTree = "<group>"; };
+		EAC7A5721FB9E1E0004B8445 /* BinaryTree+VerifySubTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BinaryTree+VerifySubTree.h"; sourceTree = "<group>"; };
+		EAC7A5731FB9E1E0004B8445 /* BinaryTree+VerifySubTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BinaryTree+VerifySubTree.m"; sourceTree = "<group>"; };
+		EAC7A5751FB9E847004B8445 /* BinaryTree+CompleteMatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BinaryTree+CompleteMatch.h"; sourceTree = "<group>"; };
+		EAC7A5761FB9E847004B8445 /* BinaryTree+CompleteMatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BinaryTree+CompleteMatch.m"; sourceTree = "<group>"; };
 		EAEE48C91FB5679400ECA4F2 /* FindNextLargestElementInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindNextLargestElementInArray.h; sourceTree = "<group>"; };
 		EAEE48CA1FB5679400ECA4F2 /* FindNextLargestElementInArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindNextLargestElementInArray.m; sourceTree = "<group>"; };
 		EAEE48CD1FB57A5300ECA4F2 /* FibnocciSeries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FibnocciSeries.h; sourceTree = "<group>"; };
@@ -77,6 +83,10 @@
 				EA2FDC511FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m */,
 				EA2FDC6B1FB60CCF0096A7F7 /* BinaryTree+PostOrder.h */,
 				EA2FDC6C1FB60CCF0096A7F7 /* BinaryTree+PostOrder.m */,
+				EAC7A5721FB9E1E0004B8445 /* BinaryTree+VerifySubTree.h */,
+				EAC7A5731FB9E1E0004B8445 /* BinaryTree+VerifySubTree.m */,
+				EAC7A5751FB9E847004B8445 /* BinaryTree+CompleteMatch.h */,
+				EAC7A5761FB9E847004B8445 /* BinaryTree+CompleteMatch.m */,
 			);
 			path = BST_Implementation;
 			sourceTree = "<group>";
@@ -237,6 +247,8 @@
 				EA2FDC4F1FB5B0A60096A7F7 /* BinaryTree.m in Sources */,
 				EA2FDC521FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m in Sources */,
 				EAF247A41FB36DDA00B10852 /* GeneratePermutations.m in Sources */,
+				EAC7A5741FB9E1E0004B8445 /* BinaryTree+VerifySubTree.m in Sources */,
+				EAC7A5771FB9E847004B8445 /* BinaryTree+CompleteMatch.m in Sources */,
 				EAEE48CB1FB5679400ECA4F2 /* FindNextLargestElementInArray.m in Sources */,
 				EAEE48CF1FB57A5300ECA4F2 /* FibnocciSeries.m in Sources */,
 				EA7CE2211FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.m in Sources */,
