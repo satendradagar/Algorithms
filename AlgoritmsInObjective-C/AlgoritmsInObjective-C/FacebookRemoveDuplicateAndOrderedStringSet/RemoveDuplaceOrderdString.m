@@ -10,4 +10,20 @@
 
 @implementation RemoveDuplaceOrderdString
 
++(NSArray *)arrayByRemovingDuplicateOrderedFrom:(NSArray *)array{
+    
+    NSMutableDictionary *result = [NSMutableDictionary new];
+    for (NSString *word in array) {
+        [result setValue:[NSNull null] forKey:word];
+    }
+    return result.allKeys;
+}
+
++(void)testArrayRemoval{
+    NSLog(@"------------------------------------------------");
+    NSArray *input = @[@"boy",@"girl",@"cow",@"cat",@"hindi",@"girl",@"boy"];
+    NSLog(@"%@",[self arrayByRemovingDuplicateOrderedFrom:input]);
+    NSLog(@"------------------------------------------------");
+}
+
 @end

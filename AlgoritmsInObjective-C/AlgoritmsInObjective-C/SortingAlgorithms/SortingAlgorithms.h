@@ -10,4 +10,6 @@
 
 @interface SortingAlgorithms : NSObject
 
++ (void)testSortings;
+
 @end

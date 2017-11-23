@@ -10,4 +10,6 @@
 
 @interface StringOperations : NSObject
 
++(NSString *)reverseTheWorkdsOfAString:(NSString *)input;
+
 @end

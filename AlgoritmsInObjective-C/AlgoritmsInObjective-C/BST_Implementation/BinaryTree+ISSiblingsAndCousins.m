@@ -37,6 +37,7 @@
     }
     if (self == node)//Matched
         return currentLevel;
+        //Else check for left and right
         int level = [self.left levelForChildNode:node withCurrentLevel:currentLevel + 1];//Lookup in left side for node
         if (level != 0) {//We got index
             return level;

@@ -10,4 +10,8 @@
 
 @interface RemoveDuplaceOrderdString : NSObject
 
++(NSArray *)arrayByRemovingDuplicateOrderedFrom:(NSArray *)array;
+
++(void)testArrayRemoval;
+
 @end

@@ -35,5 +35,31 @@
 
 }
 
++(NSArray *)arrayWithStringPermutations:(NSString *)myString{
+    NSInteger stringLength = [myString length];
+    if (stringLength < 2) {
+        return [NSArray arrayWithObject:myString];
+    }
+    else{
+        NSString *head = [myString substringFromIndex:1];
+        NSString *newBase = [myString substringToIndex:1];
+        NSArray *permutations = [self arrayWithStringPermutations:newBase];
+        NSMutableArray *permutationsArray = [NSMutableArray array];
+        for (NSInteger i = 0; i<[permutations count]; i++) {
+            [self mergeHeadString:head withString:newBase addTo:permutationsArray];
+        }
+        return permutationsArray;
+    }
+}
++(void)mergeHeadString:(NSString *)theString withString:(NSString *)base addTo:(NSMutableArray *)permutationsArray{
+    NSUInteger count = [base length];
+    while (count != 0) {
+        count--;
+        NSMutableString *mutBase = [base mutableCopy];
+        [mutBase insertString:theString atIndex:count];
+        [permutationsArray addObject:mutBase];
+    }
+}
+
 
 @end

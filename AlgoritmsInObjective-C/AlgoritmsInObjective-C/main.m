@@ -16,6 +16,9 @@
 #import "FibnocciSeries.h"
 #import "BinaryTree+ISSiblingsAndCousins.h"
 #import "BinaryTree+PostOrder.h"
+#import "StringOperations.h"
+#import "SortingAlgorithms.h"
+#import "RemoveDuplaceOrderdString.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -31,6 +34,9 @@ int main(int argc, const char * argv[]) {
         [BinaryTree testBinaryTree];
         [BinaryTree testCousins];
         [BinaryTree testPostOrder];
+        [SortingAlgorithms testSortings];
+        NSLog(@"%@", [StringOperations reverseTheWorkdsOfAString:@"Hello This is Satendra OK"]);
+        [RemoveDuplaceOrderdString testArrayRemoval];
     }
     return 0;
 }

@@ -10,11 +10,15 @@
 		EA2FDC4F1FB5B0A60096A7F7 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FDC4E1FB5B0A60096A7F7 /* BinaryTree.m */; };
 		EA2FDC521FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FDC511FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m */; };
 		EA2FDC6D1FB60CCF0096A7F7 /* BinaryTree+PostOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FDC6C1FB60CCF0096A7F7 /* BinaryTree+PostOrder.m */; };
+		EA4658E21FBEE7B300F7830F /* SortingAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4658E11FBEE7B300F7830F /* SortingAlgorithms.m */; };
+		EA4658E51FBEFDF900F7830F /* HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4658E41FBEFDF900F7830F /* HeapSort.m */; };
+		EA4658E91FBF42B900F7830F /* RemoveDuplaceOrderdString.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4658E81FBF42B900F7830F /* RemoveDuplaceOrderdString.m */; };
 		EA7CE2211FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7CE2201FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.m */; };
 		EABCDE771FB43C72000E90BA /* FilePeakElements.m in Sources */ = {isa = PBXBuildFile; fileRef = EABCDE761FB43C72000E90BA /* FilePeakElements.m */; };
 		EABCDE7B1FB44745000E90BA /* FindElementInSortedRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EABCDE7A1FB44745000E90BA /* FindElementInSortedRotatedArray.m */; };
 		EAC7A5741FB9E1E0004B8445 /* BinaryTree+VerifySubTree.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7A5731FB9E1E0004B8445 /* BinaryTree+VerifySubTree.m */; };
 		EAC7A5771FB9E847004B8445 /* BinaryTree+CompleteMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC7A5761FB9E847004B8445 /* BinaryTree+CompleteMatch.m */; };
+		EAD50CB81FBD8E5C0056D007 /* StringOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD50CB71FBD8E5C0056D007 /* StringOperations.m */; };
 		EAEE48CB1FB5679400ECA4F2 /* FindNextLargestElementInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEE48CA1FB5679400ECA4F2 /* FindNextLargestElementInArray.m */; };
 		EAEE48CF1FB57A5300ECA4F2 /* FibnocciSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEE48CE1FB57A5300ECA4F2 /* FibnocciSeries.m */; };
 		EAF247931FB368A600B10852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF247921FB368A600B10852 /* main.m */; };
@@ -41,6 +45,12 @@
 		EA2FDC511FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BinaryTree+ISSiblingsAndCousins.m"; sourceTree = "<group>"; };
 		EA2FDC6B1FB60CCF0096A7F7 /* BinaryTree+PostOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BinaryTree+PostOrder.h"; sourceTree = "<group>"; };
 		EA2FDC6C1FB60CCF0096A7F7 /* BinaryTree+PostOrder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BinaryTree+PostOrder.m"; sourceTree = "<group>"; };
+		EA4658E01FBEE7B300F7830F /* SortingAlgorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortingAlgorithms.h; sourceTree = "<group>"; };
+		EA4658E11FBEE7B300F7830F /* SortingAlgorithms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortingAlgorithms.m; sourceTree = "<group>"; };
+		EA4658E31FBEFDF900F7830F /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
+		EA4658E41FBEFDF900F7830F /* HeapSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeapSort.m; sourceTree = "<group>"; };
+		EA4658E71FBF42B900F7830F /* RemoveDuplaceOrderdString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveDuplaceOrderdString.h; sourceTree = "<group>"; };
+		EA4658E81FBF42B900F7830F /* RemoveDuplaceOrderdString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoveDuplaceOrderdString.m; sourceTree = "<group>"; };
 		EA7CE21F1FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KadeAlgoMaxSumSubaaray.h; sourceTree = "<group>"; };
 		EA7CE2201FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KadeAlgoMaxSumSubaaray.m; sourceTree = "<group>"; };
 		EABCDE751FB43C72000E90BA /* FilePeakElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilePeakElements.h; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		EAC7A5731FB9E1E0004B8445 /* BinaryTree+VerifySubTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BinaryTree+VerifySubTree.m"; sourceTree = "<group>"; };
 		EAC7A5751FB9E847004B8445 /* BinaryTree+CompleteMatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BinaryTree+CompleteMatch.h"; sourceTree = "<group>"; };
 		EAC7A5761FB9E847004B8445 /* BinaryTree+CompleteMatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BinaryTree+CompleteMatch.m"; sourceTree = "<group>"; };
+		EAD50CB61FBD8E5C0056D007 /* StringOperations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringOperations.h; sourceTree = "<group>"; };
+		EAD50CB71FBD8E5C0056D007 /* StringOperations.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringOperations.m; sourceTree = "<group>"; };
 		EAEE48C91FB5679400ECA4F2 /* FindNextLargestElementInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindNextLargestElementInArray.h; sourceTree = "<group>"; };
 		EAEE48CA1FB5679400ECA4F2 /* FindNextLargestElementInArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindNextLargestElementInArray.m; sourceTree = "<group>"; };
 		EAEE48CD1FB57A5300ECA4F2 /* FibnocciSeries.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FibnocciSeries.h; sourceTree = "<group>"; };
@@ -91,6 +103,26 @@
 			path = BST_Implementation;
 			sourceTree = "<group>";
 		};
+		EA4658DF1FBEE79E00F7830F /* SortingAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				EA4658E01FBEE7B300F7830F /* SortingAlgorithms.h */,
+				EA4658E11FBEE7B300F7830F /* SortingAlgorithms.m */,
+				EA4658E31FBEFDF900F7830F /* HeapSort.h */,
+				EA4658E41FBEFDF900F7830F /* HeapSort.m */,
+			);
+			path = SortingAlgorithms;
+			sourceTree = "<group>";
+		};
+		EA4658E61FBF42A500F7830F /* FacebookRemoveDuplicateAndOrderedStringSet */ = {
+			isa = PBXGroup;
+			children = (
+				EA4658E71FBF42B900F7830F /* RemoveDuplaceOrderdString.h */,
+				EA4658E81FBF42B900F7830F /* RemoveDuplaceOrderdString.m */,
+			);
+			path = FacebookRemoveDuplicateAndOrderedStringSet;
+			sourceTree = "<group>";
+		};
 		EA7CE21E1FB47A33004F7A4A /* KadeAlgo_SubarrayWithMaxSum */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +148,15 @@
 				EABCDE7A1FB44745000E90BA /* FindElementInSortedRotatedArray.m */,
 			);
 			path = FindElementInSortedRotatedArray;
+			sourceTree = "<group>";
+		};
+		EAD50CB51FBD8E3E0056D007 /* StringOperations */ = {
+			isa = PBXGroup;
+			children = (
+				EAD50CB61FBD8E5C0056D007 /* StringOperations.h */,
+				EAD50CB71FBD8E5C0056D007 /* StringOperations.m */,
+			);
+			path = StringOperations;
 			sourceTree = "<group>";
 		};
 		EAEE48C81FB5677200ECA4F2 /* FindNextLargestElementInArray */ = {
@@ -155,6 +196,9 @@
 		EAF247911FB368A600B10852 /* AlgoritmsInObjective-C */ = {
 			isa = PBXGroup;
 			children = (
+				EA4658E61FBF42A500F7830F /* FacebookRemoveDuplicateAndOrderedStringSet */,
+				EA4658DF1FBEE79E00F7830F /* SortingAlgorithms */,
+				EAD50CB51FBD8E3E0056D007 /* StringOperations */,
 				EA2FDC4C1FB5B0980096A7F7 /* BST_Implementation */,
 				EAEE48CC1FB57A3B00ECA4F2 /* FibnocciNumberSeries */,
 				EAEE48C81FB5677200ECA4F2 /* FindNextLargestElementInArray */,
@@ -249,12 +293,16 @@
 				EAF247A41FB36DDA00B10852 /* GeneratePermutations.m in Sources */,
 				EAC7A5741FB9E1E0004B8445 /* BinaryTree+VerifySubTree.m in Sources */,
 				EAC7A5771FB9E847004B8445 /* BinaryTree+CompleteMatch.m in Sources */,
+				EA4658E91FBF42B900F7830F /* RemoveDuplaceOrderdString.m in Sources */,
 				EAEE48CB1FB5679400ECA4F2 /* FindNextLargestElementInArray.m in Sources */,
 				EAEE48CF1FB57A5300ECA4F2 /* FibnocciSeries.m in Sources */,
 				EA7CE2211FB47A51004F7A4A /* KadeAlgoMaxSumSubaaray.m in Sources */,
 				EAF247931FB368A600B10852 /* main.m in Sources */,
 				EABCDE7B1FB44745000E90BA /* FindElementInSortedRotatedArray.m in Sources */,
+				EA4658E51FBEFDF900F7830F /* HeapSort.m in Sources */,
+				EA4658E21FBEE7B300F7830F /* SortingAlgorithms.m in Sources */,
 				EABCDE771FB43C72000E90BA /* FilePeakElements.m in Sources */,
+				EAD50CB81FBD8E5C0056D007 /* StringOperations.m in Sources */,
 				EA2FDC6D1FB60CCF0096A7F7 /* BinaryTree+PostOrder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
