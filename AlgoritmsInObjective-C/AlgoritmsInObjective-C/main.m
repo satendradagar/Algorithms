@@ -19,6 +19,7 @@
 #import "StringOperations.h"
 #import "SortingAlgorithms.h"
 #import "RemoveDuplaceOrderdString.h"
+#import "findPythagorianMatchesInArray.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -37,6 +38,7 @@ int main(int argc, const char * argv[]) {
         [SortingAlgorithms testSortings];
         NSLog(@"%@", [StringOperations reverseTheWorkdsOfAString:@"Hello This is Satendra OK"]);
         [RemoveDuplaceOrderdString testArrayRemoval];
+        [findPythagorianMatchesInArray testInputArrayElement];
     }
     return 0;
 }

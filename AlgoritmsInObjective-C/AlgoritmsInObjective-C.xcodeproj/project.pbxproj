@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A021B36217DD5010080E3A9 /* findPythagorianMatchesInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A021B35217DD5010080E3A9 /* findPythagorianMatchesInArray.m */; };
+		9A19E5DA211C67C600156B56 /* FindLastIndexInRepeatingSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A19E5D9211C67C600156B56 /* FindLastIndexInRepeatingSortedArray.m */; };
 		EA2FDC4F1FB5B0A60096A7F7 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FDC4E1FB5B0A60096A7F7 /* BinaryTree.m */; };
 		EA2FDC521FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FDC511FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m */; };
 		EA2FDC6D1FB60CCF0096A7F7 /* BinaryTree+PostOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2FDC6C1FB60CCF0096A7F7 /* BinaryTree+PostOrder.m */; };
@@ -39,6 +41,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9A021B34217DD5010080E3A9 /* findPythagorianMatchesInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = findPythagorianMatchesInArray.h; sourceTree = "<group>"; };
+		9A021B35217DD5010080E3A9 /* findPythagorianMatchesInArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = findPythagorianMatchesInArray.m; sourceTree = "<group>"; };
+		9A19E5D8211C67C600156B56 /* FindLastIndexInRepeatingSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindLastIndexInRepeatingSortedArray.h; sourceTree = "<group>"; };
+		9A19E5D9211C67C600156B56 /* FindLastIndexInRepeatingSortedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindLastIndexInRepeatingSortedArray.m; sourceTree = "<group>"; };
 		EA2FDC4D1FB5B0A60096A7F7 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
 		EA2FDC4E1FB5B0A60096A7F7 /* BinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
 		EA2FDC501FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BinaryTree+ISSiblingsAndCousins.h"; sourceTree = "<group>"; };
@@ -86,6 +92,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A021B33217DD4D90080E3A9 /* PythagorianProblem */ = {
+			isa = PBXGroup;
+			children = (
+				9A021B34217DD5010080E3A9 /* findPythagorianMatchesInArray.h */,
+				9A021B35217DD5010080E3A9 /* findPythagorianMatchesInArray.m */,
+			);
+			path = PythagorianProblem;
+			sourceTree = "<group>";
+		};
+		9A19E5D7211C67A800156B56 /* FindLastIndexInRepeatingSortedArray */ = {
+			isa = PBXGroup;
+			children = (
+				9A19E5D8211C67C600156B56 /* FindLastIndexInRepeatingSortedArray.h */,
+				9A19E5D9211C67C600156B56 /* FindLastIndexInRepeatingSortedArray.m */,
+			);
+			path = FindLastIndexInRepeatingSortedArray;
+			sourceTree = "<group>";
+		};
 		EA2FDC4C1FB5B0980096A7F7 /* BST_Implementation */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +220,8 @@
 		EAF247911FB368A600B10852 /* AlgoritmsInObjective-C */ = {
 			isa = PBXGroup;
 			children = (
+				9A021B33217DD4D90080E3A9 /* PythagorianProblem */,
+				9A19E5D7211C67A800156B56 /* FindLastIndexInRepeatingSortedArray */,
 				EA4658E61FBF42A500F7830F /* FacebookRemoveDuplicateAndOrderedStringSet */,
 				EA4658DF1FBEE79E00F7830F /* SortingAlgorithms */,
 				EAD50CB51FBD8E3E0056D007 /* StringOperations */,
@@ -290,9 +316,11 @@
 				EAF247A01FB3690500B10852 /* BinarySearchInSortedArray.m in Sources */,
 				EA2FDC4F1FB5B0A60096A7F7 /* BinaryTree.m in Sources */,
 				EA2FDC521FB5C3860096A7F7 /* BinaryTree+ISSiblingsAndCousins.m in Sources */,
+				9A19E5DA211C67C600156B56 /* FindLastIndexInRepeatingSortedArray.m in Sources */,
 				EAF247A41FB36DDA00B10852 /* GeneratePermutations.m in Sources */,
 				EAC7A5741FB9E1E0004B8445 /* BinaryTree+VerifySubTree.m in Sources */,
 				EAC7A5771FB9E847004B8445 /* BinaryTree+CompleteMatch.m in Sources */,
+				9A021B36217DD5010080E3A9 /* findPythagorianMatchesInArray.m in Sources */,
 				EA4658E91FBF42B900F7830F /* RemoveDuplaceOrderdString.m in Sources */,
 				EAEE48CB1FB5679400ECA4F2 /* FindNextLargestElementInArray.m in Sources */,
 				EAEE48CF1FB57A5300ECA4F2 /* FibnocciSeries.m in Sources */,

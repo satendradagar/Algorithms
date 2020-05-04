@@ -13,9 +13,11 @@
 +(NSArray *)arrayByRemovingDuplicateOrderedFrom:(NSArray *)array{
     
     NSMutableDictionary *result = [NSMutableDictionary new];
+    NSUInteger counter = 0;
     for (NSString *word in array) {
         [result setValue:[NSNull null] forKey:word];
     }
+    
     return result.allKeys;
 }
 

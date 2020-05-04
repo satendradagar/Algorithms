@@ -38,7 +38,7 @@
     
     
     return NSNotFound;
-}
+};
 
 +(void)checkIndexOfElements{
     NSLog(@"------------------------------------------------");
